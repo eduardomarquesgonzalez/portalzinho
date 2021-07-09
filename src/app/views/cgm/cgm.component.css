@@ -1,0 +1,25 @@
+mat-card{
+  /*justify-content: center;
+  background-color: #dfe9e9;
+  */
+  height: 700;
+  padding-left: 5%;
+  padding-right: 15%;
+}
+  
+  p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+    line-height: 1.5;
+  }
+  .header{
+    justify-content: center;
+  }
+  .paragrafo{
+    width: 90%;
+    justify-content: center;
+  }
+img{
+  text-align: center;
+}

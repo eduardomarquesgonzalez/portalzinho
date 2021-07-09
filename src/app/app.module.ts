@@ -11,6 +11,8 @@ import { HomeComponent } from './views/home/home.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { FooterComponent } from './views/footer/footer.component';
 import { ComecoComponent } from './views/comeco/comeco.component';
+import {MatCardModule} from '@angular/material/card';
+import { JogosComponent } from './views/jogos/jogos.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,13 +21,15 @@ import { ComecoComponent } from './views/comeco/comeco.component';
     GlossarioComponent,
     HomeComponent,
     FooterComponent,
-    ComecoComponent
+    ComecoComponent,
+    JogosComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

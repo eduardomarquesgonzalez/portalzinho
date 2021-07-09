@@ -1,6 +1,9 @@
 .footer{
-    background-color: rgb(74, 160, 74);
-    height: 15%;
-    position: fixed;
+    background-color: #006207;
+    height: 10%;
+    /*position: fixed;*/
     bottom: 0;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
 }

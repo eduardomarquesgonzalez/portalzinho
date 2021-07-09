@@ -7,10 +7,9 @@ h1{
     text-align: center;
     color: #40af40;
 }
-
-main{
-    background-image: url(../../../assets/img/header-bg.jpg);
-    background-image: url(../../../assets/img/header-bg.jpg);
+.img-header{
+    background-image: url(../../../assets/img/prefeitura-head.jpg);
+    height: fit-content;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -20,6 +19,9 @@ main{
     -o-background-size: cover;
     text-align: center;
     color: white;
-    height: 800px!important;  
-  
+    height: 800px!important;
 }
+
+
+  
+

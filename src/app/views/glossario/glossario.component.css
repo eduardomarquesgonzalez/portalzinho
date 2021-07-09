@@ -1,0 +1,12 @@
+ul li {
+    display: inline-block;
+   justify-content: space-between;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bold;
+   font-size: 60px;
+   color: yellow;
+}
+#alfabeto{
+    line-height: 4rem;
+    text-align: center;
+}

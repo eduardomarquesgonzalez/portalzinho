@@ -1,24 +1,39 @@
+/*.barra-menu{
+  background-image: url(../../../assets/img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+  height: 800px!important;  
+
+}
+
 .home {
-    background-image: url(../../../assets/img/header-bg.jpg);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    text-align: center;
-    color: white;
-    height: 800px!important;  
+  background-image: url(../../../assets/img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+  height: 800px!important;  
   }
-  
+  */
   div{
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 100px;
+    padding-top: 150px;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-weight: bold;
+    font-weight: bold;
     display: flex;
     justify-content: space-between;
     color: white;
@@ -30,14 +45,9 @@
   div.jogos{
       padding-right: 5%;
   }
+  
   a{
+    height: auto;
       color: #dbdb23;
   }
-  div.img{
-  
-    margin: 0;
-      position: absolute;
-      padding-top: 50px;
-      padding-left: 35%;
-      
-  }
+

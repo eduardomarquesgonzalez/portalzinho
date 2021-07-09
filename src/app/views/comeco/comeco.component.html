@@ -1,28 +1,27 @@
 
  <div class="barra-menu">
-    <div>
-        <a href="../home/" class="comeco">COMEÇO</a>
+    <div >
+
+        <a [routerLink]="['/cgm']">COMEÇO</a>
     </div>
     <div>
-        <a href="../cgm/" class="cgm">A CGM</a>
+        <a href="../cgm/cgm.component.html" class="cgm">A CGM</a>
     </div>
 
     <div class="gloss">
-        <a href="../glossario/" class="glossario">GLOSSÁRIO</a>
+        <a [routerLink]="['../glossario']">GLOSSARIO</a>
     </div>
 
     <div  class="jogos">
-        <a href="../jogos/" class="jogos">JOGOS</a>
+        <a [routerLink]="['/jogos']">JOGOS</a>
     </div>
 
-    <div>
-        <a href="../quadrinhos/" class="quadrinhos">QUADRINHOS</a>
+    <div class="quadrinho">
+        <a [routerLink]="['/quadrinhos']">QUADRINHOS</a>
     </div>
     <div>
         <a href="../fiqueligado/" class="fiqueLigado">FIQUE LIGADO</a>
     </div>
-
-    <div class="img">
-        <img src="../../../assets/img/personagens.png"  alt="personagens">
-    </div>
+    
 </div>
+
